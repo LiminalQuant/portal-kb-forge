@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local data
+data/
+input/
+output/
+exports/
+raw/
+raw_blocks/
+portal_ready/
+portal_ready_package.zip
+
+# Sensitive / generated
+*.docx
+*.xlsx
+*.pdf
+*.zip
+*.json
+
+# Keep examples if needed
+!examples/*.txt
+!config.example.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
